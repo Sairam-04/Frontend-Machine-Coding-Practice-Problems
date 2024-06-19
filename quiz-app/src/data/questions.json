@@ -1,0 +1,227 @@
+[
+    {
+        "id": 1,
+        "question": "What is the correct syntax to create a component in React?",
+        "answerOptions": [
+            {
+                "text": "function MyComponent() {}",
+                "isCorrect": true
+            },
+            {
+                "text": "createComponent MyComponent() {}",
+                "isCorrect": false
+            },
+            {
+                "text": "new Component MyComponent() {}",
+                "isCorrect": false
+            },
+            {
+                "text": "Component MyComponent() {}",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 2,
+
+        "question": "How can you embed expressions in JSX?",
+        "answerOptions": [
+            {
+                "text": "Using double quotes",
+                "isCorrect": false
+            },
+            {
+                "text": "Using curly braces",
+                "isCorrect": true
+            },
+            {
+                "text": "Using parentheses",
+                "isCorrect": false
+            },
+            {
+                "text": "Using square brackets",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 3,
+
+        "question": "Which method in a React class component is used to handle state updates?",
+        "answerOptions": [
+            {
+                "text": "setState",
+                "isCorrect": true
+            },
+            {
+                "text": "setNewState",
+                "isCorrect": false
+            },
+            {
+                "text": "updateState",
+                "isCorrect": false
+            },
+            {
+                "text": "changeState",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 4,
+
+        "question": "What is used to pass data to a component from outside?",
+        "answerOptions": [
+            {
+                "text": "setState",
+                "isCorrect": false
+            },
+            {
+                "text": "render with arguments",
+                "isCorrect": false
+            },
+            {
+                "text": "props",
+                "isCorrect": true
+            },
+            {
+                "text": "PropTypes",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 5,
+
+        "question": "What is the purpose of the constructor method in a React component?",
+        "answerOptions": [
+            {
+                "text": "To initialize local state and bind event handler methods",
+                "isCorrect": true
+            },
+            {
+                "text": "To render the component",
+                "isCorrect": false
+            },
+            {
+                "text": "To handle lifecycle events",
+                "isCorrect": false
+            },
+            {
+                "text": "To update the state",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 6,
+
+        "question": "What is the name of the tool used to take JSX and turn it into a DOM structure?",
+        "answerOptions": [
+            {
+                "text": "ReactDOM",
+                "isCorrect": true
+            },
+            {
+                "text": "JSXDOM",
+                "isCorrect": false
+            },
+            {
+                "text": "ReactTransformer",
+                "isCorrect": false
+            },
+            {
+                "text": "JSXConverter",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "question": "Which hook is used to handle state in functional components?",
+        "answerOptions": [
+            {
+                "text": "useState",
+                "isCorrect": true
+            },
+            {
+                "text": "useReducer",
+                "isCorrect": false
+            },
+            {
+                "text": "useContext",
+                "isCorrect": false
+            },
+            {
+                "text": "useEffect",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "question": "What does JSX stand for?",
+        "answerOptions": [
+            {
+                "text": "JavaScript XML",
+                "isCorrect": true
+            },
+            {
+                "text": "Java Syntax Extension",
+                "isCorrect": false
+            },
+            {
+                "text": "JavaScript and XML",
+                "isCorrect": false
+            },
+            {
+                "text": "Java XML Syntax",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "question": "Which lifecycle method is called when a component is being removed from the DOM?",
+        "answerOptions": [
+            {
+                "text": "componentWillUnmount",
+                "isCorrect": true
+            },
+            {
+                "text": "componentDidUnmount",
+                "isCorrect": false
+            },
+            {
+                "text": "componentWillUpdate",
+                "isCorrect": false
+            },
+            {
+                "text": "componentDidUpdate",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "question": "Which React function is used to render a component to the DOM?",
+        "answerOptions": [
+            {
+                "text": "ReactDOM.render",
+                "isCorrect": true
+            },
+            {
+                "text": "React.render",
+                "isCorrect": false
+            },
+            {
+                "text": "ReactDOM.create",
+                "isCorrect": false
+            },
+            {
+                "text": "React.create",
+                "isCorrect": false
+            }
+        ]
+    }
+]
