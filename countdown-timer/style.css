@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* background: linear-gradient(to right, #000000, #434343);  */
+    /* background: linear-gradient(to right, #0f2027, #203a43, #2c5364); */
+    /* background: radial-gradient(circle, rgba(38,55,53,1) 0%, rgba(0,0,0,1) 100%); */
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    align-items: center;
+    justify-content: center;
+}
+
+.container__heading{
+    font-size: 54px;
+    font-weight:400 ;
+    color: white;
+}
+
+.container__box{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container__box--time{
+    display: flex;
+    justify-content: space-between;
+    font-size: 32px;
+    align-items: center;
+}
+.container__box--time span{
+    width: 200px;
+}
+
+.container__box--inputs{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.container__box--inputs > input{
+    background: none;
+    border: none;
+    font-size: 32px;
+    padding: 10px 20px;
+    width: 200px;
+    font-weight: 500;
+}
+
+.container__box--inputs > input:focus{
+    outline: none;
+}
+.container__box--inputs > input::placeholder{
+    font-size: 32px;
+    color: rgb(171, 171, 171);
+}
+
+.container__box--buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.colon{
+    font-size: 32px;
+}
+
+.btn{
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    font-size: 28px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 1px 2px 5px 3px rgb(31, 31, 31) ;
+}
+.btn:hover{
+    transform: scaleX(1.05);
+}
+
+.start{
+    background-color: rgb(0, 94, 0);
+    display: initial;
+}
+
+.stop{
+    background-color: rgb(185, 120, 0);
+    display: none;
+}
+
+.reset{
+    background-color: rgb(166, 0, 0);
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
